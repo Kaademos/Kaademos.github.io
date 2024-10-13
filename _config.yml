@@ -1,19 +1,19 @@
-title:              Clean Blog
-email:              your-email@example.com
-description:        A Blog Theme by Start Bootstrap
-author:             Start Bootstrap
+title:              SEC-WAVE
+email:              
+description:        AI-powered cybersecurity and comprehensive compliance
+author:             
 baseurl:            ""
 url:                "https://Kaademos.github.io"
 
 # Social Profiles
-twitter_username:   SBootstrap
-github_username:    StartBootstrap
-facebook_username:  StartBootstrap
+twitter_username:   
+github_username:    
+facebook_username:  
 instagram_username:  
-linkedin_username:
+linkedin_username: Sec-Wave
 
 # Add your google-analytics ID here to activate google analytics
-google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+google_analytics:    # out your google-analytics code
 
 # Build settings
 markdown:           kramdown
