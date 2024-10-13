@@ -1,48 +1,32 @@
 ---
 layout: page
-title: Posts
+title: Our Services
 background: '/img/bg-post.jpg'
 ---
 
-{% for post in paginator.posts %}
+<h4>AI-Powered Cybersecurity Solutions</h4>
+<p>In an era of increasingly sophisticated cyber threats, Sec-Wave harnesses the power of artificial intelligence to provide cutting-edge cybersecurity solutions. Our AI-driven technologies analyze patterns, detect anomalies, and respond to threats in real-time, ensuring your organization remains one step ahead of attackers.</p>
 
-<article class="post-preview">
-  <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-    <h2 class="post-title">{{ post.title }}</h2>
-    {% if post.subtitle %}
-    <h3 class="post-subtitle">{{ post.subtitle }}</h3>
-    {% else %}
-    <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h3>
-    {% endif %}
-  </a>
-  <p class="post-meta">Posted by
-    {% if post.author %}
-    {{ post.author }}
-    {% else %}
-    {{ site.author }}
-    {% endif %}
-    on {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}
-  </p>
-</article>
+<h4>Compliance Audits</h4>
+<p>Achieving and maintaining compliance with industry standards is crucial for safeguarding your organization’s reputation and customer trust. Our comprehensive audit services cover ISO, NIST, SOC 2, and PCI-DSS accreditations, ensuring you meet all necessary regulatory requirements.</p>
+
+<h4>Risk Assessment & Management</h4>
+<p>Understanding your vulnerabilities is the first step in protecting your digital assets. Sec-Wave conducts in-depth risk assessments to identify potential threats and provides tailored management strategies to mitigate those risks effectively.</p>
+
+<h4>Security Consulting</h4>
+<p>Navigating the complexities of cybersecurity can be daunting. Our expert consultants offer guidance tailored to your organization’s unique needs, helping you develop a robust security strategy that aligns with your business goals.</p>
 
 <hr>
 
-{% endfor %}
+<h3>Why Choose Sec-Wave?</h3>
+<ul>
+  <li><b>Global Reach:</b> We serve clients around the world, providing localized expertise.</li>
+  <li><b>Expert Team:</b> Our team combines the skills of cybersecurity professionals with AI specialists.</li>
+  <li><b>Proven Partnerships:</b> Collaborating with SynfulAI ensures we deliver the most innovative solutions.</li>
+  <li><b>Comprehensive Services:</b> We cover all aspects of cybersecurity and compliance, from threat protection to certification audits.</li>
+</ul>
 
-<!-- Pager -->
-{% if paginator.total_pages > 1 %}
+<hr>
 
-<div class="clearfix">
-
-  {% if paginator.previous_page %}
-  <a class="btn btn-primary float-left" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr;
-    Newer<span class="d-none d-md-inline"> Posts</span></a>
-  {% endif %}
-
-  {% if paginator.next_page %}
-  <a class="btn btn-primary float-right" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older<span class="d-none d-md-inline"> Posts</span> &rarr;</a>
-  {% endif %}
-
-</div>
-
-{% endif %}
+<h3>Get Started</h3>
+<p><b>Contact us today</b> to learn how Sec-Wave can help secure your organization and ensure compliance with essential industry standards.</p>
