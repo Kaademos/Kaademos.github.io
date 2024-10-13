@@ -12,50 +12,6 @@ facebook_username:
 instagram_username:  
 linkedin_username: Sec-Wave
 
-people:
-- name: Olivia Martinez
-  pic: 1
-  position: Chief Data Scientist
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
-
-- name: Liam Patterson
-  pic: 2
-  position: Head of Business Intelligence
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
-
-- name: Sophia Nguyen
-  pic: 3
-  position: Lead Data Analyst
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
-
-  - name: Sophiamfmf
-  pic: 4
-  position: Lead Data dndnd
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
 
 # Add your google-analytics ID here to activate google analytics
 google_analytics:    # out your google-analytics code
